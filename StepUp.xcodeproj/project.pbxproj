@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A46CB6FF28A1C9B300417E8E /* JourListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46CB6FE28A1C9B300417E8E /* JourListTableViewController.swift */; };
+		A4827CAE28A20F1500C2D2F6 /* JourList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4827CAD28A20F1500C2D2F6 /* JourList.swift */; };
 		A4E362E3289F5EDA00C1BB24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E362E2289F5EDA00C1BB24 /* AppDelegate.swift */; };
 		A4E362E5289F5EDA00C1BB24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E362E4289F5EDA00C1BB24 /* SceneDelegate.swift */; };
 		A4E362E7289F5EDA00C1BB24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E362E6289F5EDA00C1BB24 /* ViewController.swift */; };
@@ -17,6 +19,7 @@
 		A4E362FD289F5EDD00C1BB24 /* StepUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E362FC289F5EDD00C1BB24 /* StepUpTests.swift */; };
 		A4E36307289F5EDD00C1BB24 /* StepUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E36306289F5EDD00C1BB24 /* StepUpUITests.swift */; };
 		A4E36309289F5EDD00C1BB24 /* StepUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E36308289F5EDD00C1BB24 /* StepUpUITestsLaunchTests.swift */; };
+		A4E3631628A02B8B00C1BB24 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E3631528A02B8B00C1BB24 /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A46CB6FE28A1C9B300417E8E /* JourListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourListTableViewController.swift; sourceTree = "<group>"; };
+		A4827CAD28A20F1500C2D2F6 /* JourList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourList.swift; sourceTree = "<group>"; };
 		A4E362DF289F5EDA00C1BB24 /* StepUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E362E2289F5EDA00C1BB24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4E362E4289F5EDA00C1BB24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		A4E36302289F5EDD00C1BB24 /* StepUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E36306289F5EDD00C1BB24 /* StepUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepUpUITests.swift; sourceTree = "<group>"; };
 		A4E36308289F5EDD00C1BB24 /* StepUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4E3631528A02B8B00C1BB24 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		A4E362D6289F5EDA00C1BB24 = {
 			isa = PBXGroup;
 			children = (
+				A4827CAD28A20F1500C2D2F6 /* JourList.swift */,
 				A4E362E1289F5EDA00C1BB24 /* StepUp */,
 				A4E362FB289F5EDD00C1BB24 /* StepUpTests */,
 				A4E36305289F5EDD00C1BB24 /* StepUpUITests */,
@@ -104,6 +111,8 @@
 				A4E362E2289F5EDA00C1BB24 /* AppDelegate.swift */,
 				A4E362E4289F5EDA00C1BB24 /* SceneDelegate.swift */,
 				A4E362E6289F5EDA00C1BB24 /* ViewController.swift */,
+				A4E3631528A02B8B00C1BB24 /* HomePageViewController.swift */,
+				A46CB6FE28A1C9B300417E8E /* JourListTableViewController.swift */,
 				A4E362E8289F5EDA00C1BB24 /* Main.storyboard */,
 				A4E362EE289F5EDD00C1BB24 /* Assets.xcassets */,
 				A4E362F0289F5EDD00C1BB24 /* LaunchScreen.storyboard */,
@@ -262,8 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4E362ED289F5EDA00C1BB24 /* StepUp.xcdatamodeld in Sources */,
+				A46CB6FF28A1C9B300417E8E /* JourListTableViewController.swift in Sources */,
 				A4E362E7289F5EDA00C1BB24 /* ViewController.swift in Sources */,
 				A4E362E3289F5EDA00C1BB24 /* AppDelegate.swift in Sources */,
+				A4E3631628A02B8B00C1BB24 /* HomePageViewController.swift in Sources */,
+				A4827CAE28A20F1500C2D2F6 /* JourList.swift in Sources */,
 				A4E362E5289F5EDA00C1BB24 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
